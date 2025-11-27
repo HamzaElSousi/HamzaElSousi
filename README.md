@@ -110,10 +110,6 @@ Currently leading engineering at **BSCINTEC**, I specialize in reducing query la
 
 ### 📊 GitHub Analytics
 
-<div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=HamzaElSousi&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&bg_color=0d1117" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HamzaElSousi&layout=compact&theme=tokyonight&langs_count=8&hide_border=true&bg_color=0d1117" />
-</div>
 <br/>
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=HamzaElSousi&theme=tokyonight&hide_border=true&background=0d1117" alt="Streak Stats" />
