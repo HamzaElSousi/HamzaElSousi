@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 # Hi there, I'm Hamza 👋
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=D70000&background=00000000&center=true&vCenter=true&width=500&lines=Lead+Software+Engineer;High-Performance+System+Architect;AI+%26+Security+Specialist;Cloud+Infrastructure+Expert" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=D70000&background=00000000&center=true&vCenter=true&width=500&lines=Lead+Software+Engineer;High-Performance+System+Architect;AI+%26+Security+Enthusiast;FDSE" alt="Typing SVG" />
 </a>
 
 <p align="center">
@@ -110,10 +110,14 @@ Currently leading engineering at **BSCINTEC**, I specialize in reducing query la
 
 ### 📊 GitHub Analytics
 
+<div align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=HamzaElSousi&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&bg_color=0d1117" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HamzaElSousi&layout=compact&theme=tokyonight&langs_count=8&hide_border=true&bg_color=0d1117" />
+</div>
 <br/>
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HamzaElSousi&theme=tokyonight&hide_border=true&background=0d1117" alt="Streak Stats" />
-  <br/>
+  <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=HamzaElSousi&theme=tokyonight&hide_border=true&background=0d1117" alt="Streak Stats" />
+  <br/> -->
   <br/>
   <img src="https://ghchart.rshah.org/D70000/HamzaElSousi" alt="Hamza's Github Chart" />
 </div>
