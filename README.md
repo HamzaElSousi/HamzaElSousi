@@ -83,6 +83,7 @@ Currently leading engineering at **BSCINTEC**, I specialize in reducing query la
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/Microservices-000000?style=for-the-badge&logo=microservices&logoColor=white" />
 <img src="https://img.shields.io/badge/MVC-000000?style=for-the-badge&logo=MVC&logoColor=white" />
+<img src="https://img.shields.io/badge/Monoliths-000000?style=for-the-badge&logo=MVC&logoColor=white" />
 <img src="https://img.shields.io/badge/WebSockets-000000?style=for-the-badge&logo=websocket&logoColor=white" />
 <img src="https://img.shields.io/badge/CRDTs-FF5733?style=for-the-badge" />
 
