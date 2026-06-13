@@ -140,19 +140,28 @@ Standalone, production-minded AI tools — each solves a real problem and instal
 
 ---
 
-### 🚀 Engineering & Open Source Projects
+### 🚀 More Open-Source Projects
+
+Public and clickable — clone and run any of them.
 
 | Project | Key Metrics & Architecture | Stack |
 | :--- | :--- | :--- |
-| **🛡️ Honeypot & Threat Intel** | • **Performance:** Processes **5,000+ events/sec** with <50ms latency.<br>• **Security:** Captures SSH/HTTP/FTP attacks; >70 Lynis hardening score.<br>• **DevOps:** Automated disaster recovery (RTO <4 hours) & firewall enforcement. | `Python` `Docker` `PostgreSQL` `Elasticsearch` `Vault` |
-| **🧠 Mind-Node Platform** | • **Concurrency:** Real-time whiteboarding using **CRDTs (Yjs)** for conflict-free sync.<br>• **Rendering:** Achieves **60 FPS** on HTML5 Canvas for 100+ concurrent users.<br>• **Architecture:** Offline-first with IndexedDB persistence & WebSocket sync. | `React` `TypeScript` `Yjs` `WebSockets` `IndexedDB` |
-| **🤖 AI Website Reviewer** | • **AI Integration:** Leverages **Google Gemini Vision** for automated UX/UI auditing.<br>• **Production:** Rate limiting (10 req/min), structured JSON validation, and retry logic.<br>• **Quality:** 100+ backend tests (Pytest) & CI/CD security scanning (Trivy). | `FastAPI` `React` `Gemini API` `Docker` `GitHub Actions` |
-| **📱 PenPond Mobile App** | • **Mobile Ops:** Offline-first blog app reducing API calls by **60%** via caching.<br>• **Features:** 3-tier Stripe subscription system, native push notifications, & optimistic UI.<br>• **Quality:** 100% TypeScript coverage & comprehensive architecture docs. | `React Native` `Expo` `Redux` `Stripe` `React Query` |
-| **📦 SaaS Starter Kit** | • **Multi-Tenancy:** Organization-based isolation with role-based access control.<br>• **Billing:** Atomic financial transactions using **PostgreSQL row-locking**.<br>• **Scale:** Async task processing (Celery/Redis) & AWS ECS deployment ready. | `Django` `PostgreSQL` `Redis` `Celery` `Stripe` |
-| **🔌 SaaS Kit for AI** | • **API-First:** Dual auth system (JWT + API Keys) for M2M communication.<br>• **Efficiency:** Reduced startup infrastructure dev time from weeks to **20 minutes**.<br>• **Logic:** Thread-safe credit deduction using `select_for_update()`. | `Django` `DRF` `Docker` `Nginx` `GitHub Actions` |
-| **🛍️ White-Label E-Commerce** | • **Flexibility:** Environment-based branding for rapid multi-client deployment.<br>• **Frontend:** Type-safe data flow with React Query, Zustand, and Zod.<br>• **Security:** PCI-DSS compliant integration & JWT auth with rotation. | `React 18` `TypeScript` `Django REST` `PostgreSQL` |
-| **📄 ResumeForge** | • **AI/NLP:** AI-powered resume editor and **ATS Scanner**.<br>• **Logic:** Uses LLMs to optimize content and score resumes against job descriptions. | `Python` `NLP` `React` `OpenAI API` |
-| **🎙️ AI Meeting Assistant** | • **Audio Processing:** Automated transcription pipeline with **Speaker Diarization**.<br>• **Productivity:** Auto-summarization and action-item extraction. | `Python` `Whisper` `Pyannote` `LLMs` |
+| **[🛡️ Honeypot & Threat Intel](https://github.com/HamzaElSousi/HoneyPot-AND-Threat-Intel-Systems)** | • **Performance:** Processes **5,000+ events/sec** with <50ms latency.<br>• **Security:** Captures SSH/HTTP/FTP attacks; >70 Lynis hardening score.<br>• **DevOps:** Automated disaster recovery (RTO <4 hours) & firewall enforcement. | `Python` `Docker` `PostgreSQL` `Elasticsearch` `Vault` |
+| **[🧠 Mind-Node Platform](https://github.com/HamzaElSousi/CRDTs_Mindnode-Whiteboard)** | • **Concurrency:** Real-time whiteboarding using **CRDTs (Yjs)** for conflict-free sync.<br>• **Rendering:** Achieves **60 FPS** on HTML5 Canvas for 100+ concurrent users.<br>• **Architecture:** Offline-first with IndexedDB persistence & WebSocket sync. | `React` `TypeScript` `Yjs` `WebSockets` `IndexedDB` |
+| **[👁️ AI Website Reviewer](https://github.com/HamzaElSousi/AI-Website-Reviewer)** | • **AI Integration:** Leverages **Google Gemini Vision** for automated UX/UI auditing.<br>• **Production:** Rate limiting (10 req/min), structured JSON validation, and retry logic.<br>• **Quality:** 100+ backend tests (Pytest) & CI/CD security scanning (Trivy). | `FastAPI` `React` `Gemini API` `Docker` `GitHub Actions` |
+
+---
+
+### 🔒 Private & Client Work
+
+Production systems whose source isn't public — happy to walk through them in an interview.
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **ResumeKickstarter** | Launched, multi-tenant **AI resume-builder SaaS** — document parsing, structured editing, templated export, subscription billing & feature gates · [resumekickstarter.com](https://resumekickstarter.com) | `Django` `React 19` `PostgreSQL` `Celery` `Redis` `Docker` |
+| **Social-Automate Suite** | Full **B2B enterprise platform** — CRM, ERP, RBAC permissions, automated contract generation, async email sequences & Stripe billing | `PHP` `MySQL` `Stripe` |
+| **AI Meeting Assistant** | Transcription pipeline with **speaker diarization**, auto-summarization & action-item extraction | `Python` `Whisper` `Pyannote` `LLMs` |
+| **SaaS Starter Kits** | Multi-tenant Django boilerplates (one general, one AI-first with dual JWT + API-key auth and thread-safe credit metering) | `Django` `DRF` `Redis` `Celery` |
 
 ---
 
