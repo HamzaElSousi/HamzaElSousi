@@ -36,6 +36,11 @@ Here are some ideas to get you started:
   </a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/📍_Ottawa,_ON-Canada-informational?style=flat-square" />
+  <img src="https://img.shields.io/badge/Open_to-AI_Engineering_Roles-2ea44f?style=flat-square" />
+</p>
+
 </div>
 
 ---
@@ -152,16 +157,13 @@ Public and clickable — clone and run any of them.
 
 ---
 
-### 🔒 Private & Client Work
+### 🌐 Live SaaS
 
-Production systems whose source isn't public — happy to walk through them in an interview.
+**ResumeKickstarter** — a multi-tenant **AI resume-builder SaaS**: automatic document parsing, visual structured editing, templated export, subscription billing, rate limits & feature gates. Built with Django, React 19, PostgreSQL, Celery, Redis, and Docker Compose.
 
-| Project | What it is | Stack |
-| :--- | :--- | :--- |
-| **ResumeKickstarter** | Launched, multi-tenant **AI resume-builder SaaS** — document parsing, structured editing, templated export, subscription billing & feature gates · [resumekickstarter.com](https://resumekickstarter.com) | `Django` `React 19` `PostgreSQL` `Celery` `Redis` `Docker` |
-| **Social-Automate Suite** | Full **B2B enterprise platform** — CRM, ERP, RBAC permissions, automated contract generation, async email sequences & Stripe billing | `PHP` `MySQL` `Stripe` |
-| **AI Meeting Assistant** | Transcription pipeline with **speaker diarization**, auto-summarization & action-item extraction | `Python` `Whisper` `Pyannote` `LLMs` |
-| **SaaS Starter Kits** | Multi-tenant Django boilerplates (one general, one AI-first with dual JWT + API-key auth and thread-safe credit metering) | `Django` `DRF` `Redis` `Celery` |
+<a href="https://resumekickstarter.com">
+  <img src="https://img.shields.io/badge/Visit_Live_Site-resumekickstarter.com-D70000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="ResumeKickstarter live site" />
+</a>
 
 ---
 
