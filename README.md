@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 # Hi there, I'm Hamza 👋
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=D70000&background=00000000&center=true&vCenter=true&width=500&lines=Lead+Software+Engineer;High-Performance+System+Architect;AI+%26+Security+Enthusiast;FDSE" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=D70000&background=00000000&center=true&vCenter=true&width=500&lines=AI+Engineer;LLM+Application+Developer;Lead+Software+Engineer;High-Performance+System+Architect" alt="Typing SVG" />
 </a>
 
 <p align="center">
@@ -42,13 +42,14 @@ Here are some ideas to get you started:
 
 ### 👨‍💻 About Me
 
-I am a **Lead Software Engineer** based in **Ottawa, ON**, with a proven track record in architecting scalable full-stack systems and driving engineering best practices.
+I'm an **AI Engineer** and **Founder & Lead Engineer** based in **Ottawa, ON**, building production AI systems — RAG pipelines, LLM-powered developer tools, agentic workflows, and knowledge-graph memory engines. I care about the unglamorous parts that make AI actually ship: structured output, graceful failure handling, evaluation, and clean one-command deployment.
 
-Currently leading engineering at **BSCINTEC**, I specialize in reducing query latency (recently by **100x**), improving system efficiency (by **40%**), and preparing platforms for AI/ML expansion. I bridge the gap between high-level architecture and low-level system optimization.
+Right now I'm **open-sourcing a series of standalone AI engineering tools** — each one solves a real problem and is deployable by anyone in minutes — while running my B2B engineering consultancy. Before that I led backend architecture (cutting post-deployment defects ~40% and query latency up to **100x**) and built multi-tenant SaaS platforms end to end.
 
-* 🚀 **Focus:** High-Performance Database Design, AI Integration, Security Hardening.
-* 🧠 **Currently Exploring:** Speaker Diarization, LLM Context Windows, and Advanced Computer Vision.
-* 🤝 **Leadership:** Mentoring teams on CI/CD, automated testing, and modern SDLC standards.
+* 🤖 **Focus:** LLM application engineering, RAG, agents, and AI developer tooling.
+* 🧠 **Currently Building:** an open-source AI project series — a PR code-review bot, a RAG chatbot, a multi-agent orchestrator, an LLM eval harness, and more.
+* 🌱 **Exploring:** knowledge graphs for code context, LLM evaluation & red-teaming, and real-time voice agents.
+* 🤝 **Leadership:** mentoring teams on CI/CD, automated testing, and code-review standards.
 
 ---
 
@@ -124,6 +125,19 @@ Currently leading engineering at **BSCINTEC**, I specialize in reducing query la
   <br/>
   <img src="https://ghchart.rshah.org/D70000/HamzaElSousi" alt="Hamza's Github Chart" />
 </div>
+---
+
+### 🤖 Open-Source AI Engineering Series
+
+Standalone, production-minded AI tools — each solves a real problem and installs in minutes. Building these in public; new ones ship regularly.
+
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| **[🤖 ReviewBot](https://github.com/HamzaElSousi/reviewbot)** | GitHub Actions bot that reviews every PR with a **free LLM** and posts inline comments at exact line numbers. Two-step install (one workflow file + one secret). Retry/skip resilience means it **never fails CI on an LLM error** — proven live catching a SQL injection and a NoneType bug. | `Python` `GitHub Actions` `PyGithub` `unidiff` `Pydantic` `OpenRouter` |
+| **[💬 DocChat](https://github.com/HamzaElSousi/dochat)** | Embeddable **RAG chatbot that runs on shared hosting** (~256 MB RAM) — `sqlite-vec` in place of ChromaDB, similarity-gated lead capture instead of hallucinations, and a zero-dependency Shadow-DOM JS widget that embeds with one `<script>` tag. | `Python` `Flask` `sqlite-vec` `OpenRouter` `Vanilla JS` |
+
+> 🔨 **Shipping next:** multi-agent orchestrator · LLM eval & red-teaming harness · real-time voice agent · LoRA fine-tuning toolkit.
+
 ---
 
 ### 🚀 Engineering & Open Source Projects
