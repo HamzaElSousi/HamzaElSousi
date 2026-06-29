@@ -52,7 +52,7 @@ I'm an **AI Engineer** and **Founder & Lead Engineer** based in **Ottawa, ON**, 
 Right now I'm **open-sourcing a series of standalone AI engineering tools** — each one solves a real problem and is deployable by anyone in minutes — while running my B2B engineering consultancy. Before that I led backend architecture (cutting post-deployment defects ~40% and query latency up to **100x**) and built multi-tenant SaaS platforms end to end.
 
 * 🤖 **Focus:** LLM application engineering, RAG, agents, and AI developer tooling.
-* 🧠 **Currently Building:** an open-source AI project series — a PR code-review bot, a RAG chatbot, a multi-agent orchestrator, an LLM eval harness, and more.
+* 🧠 **Currently Building:** an open-source AI project series — a PR code-review bot, a RAG chatbot, a multi-agent orchestrator, an LLM eval harness, a fine-tuning toolkit, and more.
 * 🌱 **Exploring:** knowledge graphs for code context, LLM evaluation & red-teaming, and real-time voice agents.
 * 🤝 **Leadership:** mentoring teams on CI/CD, automated testing, and code-review standards.
 
@@ -142,8 +142,9 @@ Standalone, production-minded AI tools — each solves a real problem and instal
 | **[💬 DocChat](https://github.com/HamzaElSousi/dochat)** | Embeddable **RAG chatbot that runs on shared hosting** (~256 MB RAM) — `sqlite-vec` in place of ChromaDB, similarity-gated lead capture instead of hallucinations, and a zero-dependency Shadow-DOM JS widget that embeds with one `<script>` tag. | `Python` `Flask` `sqlite-vec` `OpenRouter` `Vanilla JS` |
 | **[🛠️ AgentForge](https://github.com/HamzaElSousi/agentforge)** | **Multi-agent framework where the whole pipeline is a YAML file** — a hand-written ReAct loop (native tool-calling + text fallback) with **parallel DAG pipelines**: agents `depends_on` each other, independent branches run concurrently on a thread pool, and one agent can **fan out** to N workers that a join merges. Bring your own model (OpenRouter / Anthropic / OpenAI / local Ollama). First-class **hard cost caps**, a tiered sandbox (SSRF + workspace jail), human-in-the-loop approvals, and a **live web dashboard** that streams agents/tool-calls/cost. Live-verified end-to-end. | `Python` `Pydantic` `Typer` `FastAPI` `httpx` `OpenRouter` `Ollama` |
 | **[📊 EvalKit](https://github.com/HamzaElSousi/evalkit)** | **Point it at any LLM app and test it from a YAML file.** An **LLM-as-judge** engine scores each response 0 to 1 with written reasoning (strict JSON, retry twice then **SKIP**, so a bad judge reply never crashes the run), backed by **9 pluggable evaluators** (rubric, exact/substring, regex, JSON schema, latency, semantic similarity) and a built-in **10-case red-team suite** (prompt injection, jailbreaks, RAG injection, PII extraction). Runs **fully offline on local Ollama** (no key) or on OpenRouter, and writes a self-contained **HTML report** (pass rate, latency p50/p95, cost, per-case reasoning). Live-verified 5/5 against a grounded bot. | `Python` `asyncio` `Pydantic` `Typer` `Jinja2` `OpenRouter` `Ollama` |
+| **[🔥 LoRAForge](https://github.com/HamzaElSousi/LoraForge-fine-tuning)** | **Fine-tune, quantize, and self-host an open LLM end to end.** QLoRA fine-tunes **Qwen3-4B** on customer-support data with Unsloth on a free Kaggle T4, then quantizes to a single **2.5 GB Q4_K_M GGUF** served on Ollama behind a **FastAPI auth proxy** (locked system prompt, 401 on bad keys). Graded base vs fine-tuned with EvalKit: **support quality 67% to 100%, overall pass rate 60% to 90%**. Model published on **[Hugging Face](https://huggingface.co/HamzaElSousi/loraforge-qwen3-4b-gguf)**. | `Python` `Unsloth` `QLoRA` `llama.cpp` `Ollama` `FastAPI` |
 
-> 🔨 **Shipping next:** real-time voice agent · LoRA fine-tuning toolkit.
+> 🔨 **Shipping next:** real-time voice agent.
 
 ---
 
